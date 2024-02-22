@@ -1,10 +1,10 @@
-# EVM-based Chains
+tab# EVM-based Chains
 
 The source data is in _data/chains. Each chain has its own file with the filename being the [CAIP-2](https://github.com/ChainAgnostic/CAIPs/blob/master/CAIPs/caip-2.md) representation as name and `.json` as extension.
 
 ## Example
 
-```json
+esc```json
 {
   "name": "Ethereum Mainnet",
   "chain": "ETH",
@@ -31,11 +31,11 @@ The source data is in _data/chains. Each chain has its own file with the filenam
     "standard": "EIP3091"
   }]
 }
-```
+`tab``
 
 when an icon is used in either the network or an explorer there must be a json in _data/icons with the name used (e.g. in the above example there must be a `ethereum.json` and a `etherscan.json` in there) - the icon jsons look like this:
 
-```json
+esc```json
 
 [
     {
